@@ -47,7 +47,7 @@ class Notifications extends StatelessWidget {
         body: TabBarView(
           children: [
             NotificationTabAll(),
-            NotificationTabMentions(),
+            NotificationTabAll(),
           ],
         ),
       ),
@@ -78,12 +78,12 @@ class NotificationTabAll extends StatelessWidget {
   }
 }
 
-class NotificationTabMentions extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Text("lol");
-  }
-}
+// class NotificationTabMentions extends StatelessWidget {
+//   @override
+//   Widget build(BuildContext context) {
+//     return Text("lol");
+//   }
+// }
 
 class NotificationAllCard extends StatelessWidget {
   @override
